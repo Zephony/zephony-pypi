@@ -4,7 +4,7 @@ setup(
     name='zephony',
     packages=['zephony'],
     description='Helper functions for Python web development',
-    version='0.3',
+    version='0.1',
     url='https://github.com/Zephony/zephony-pypi',
     author='Kevin Isaac',
     author_email='kevin@zephony.com',
