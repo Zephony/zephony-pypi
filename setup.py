@@ -3,8 +3,8 @@ from setuptools import setup
 setup(
     name='zephony',
     packages=['zephony'],
-    description='Helper functions for Python web development',
-    version='0.1',
+    description='Helpers for Python web development',
+    version='0.2',
     url='https://github.com/Zephony/zephony-pypi',
     author='Kevin Isaac',
     author_email='kevin@zephony.com',
