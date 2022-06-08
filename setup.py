@@ -2,9 +2,9 @@ from setuptools import setup
 
 setup(
     name='zephony',
-    packages=['zephony'],
+    packages=['zephony', 'zephony.models'],
     description='Helpers for Python web development',
-    version='0.5',
+    version='0.6',
     url='https://github.com/Zephony/zephony-pypi',
     author='Kevin Isaac',
     author_email='kevin@zephony.com',
