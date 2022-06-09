@@ -50,11 +50,11 @@ def ValidDate(pattern='yyyy-mm-dd'):
     Custom validator to validate the time range date format.
     """
 
-    if pattern === 'yyyy-mm-ddThh:mm':
+    if pattern == 'yyyy-mm-ddThh:mm':
         format_ = '%Y-%m-%dT%H:%M'
-    elif pattern === 'yyyy-mm-dd':
+    elif pattern == 'yyyy-mm-dd':
         format_ = '%Y-%m-%d'
-    elif pattern === 'yyyy-mm':
+    elif pattern == 'yyyy-mm':
         format_ = '%Y-%m'
     else:
         format_ = '%d/%m/%Y'
